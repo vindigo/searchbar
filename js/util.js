@@ -13,15 +13,17 @@ var util = (function() {
   }
 
   function parseData(data) {
-    var searchResults = document.querySelector("#searchResults");
-    var ul = document.createElement("ul");
-    var content;
+    
 
-    content = data.map(function(obj){
-      var div = document.createElement("div");
-      div.append(obj.name);
-      searchResults.append(div);
-    });
+    // var searchResults = document.querySelector("#searchResults");
+    // var ul = document.createElement("ul");
+    // var content;
+    //
+    // content = data.map(function(obj){
+    //   var div = document.createElement("div");
+    //   div.append(obj.name);
+    //   searchResults.append(div);
+    // });
 
   }
 

@@ -1,2 +1,2 @@
 
-util.getData("js/states.json", util.parseData);
+// util.getData("js/states.json", util.parseData);
